@@ -1,0 +1,3 @@
+To neatly list all sub directories at current level with summary of their size, ordered from largest to smallest:
+
+du -sch * | sort -rh
