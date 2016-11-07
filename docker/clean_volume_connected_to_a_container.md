@@ -10,6 +10,6 @@
   
   `docker rm <containerid>`
 
-1. Remove the Volume using the `Name` from above:
+1. Remove the Volume using the `Name` from step 2:
 
   `docker volume rm <volumeid>`
