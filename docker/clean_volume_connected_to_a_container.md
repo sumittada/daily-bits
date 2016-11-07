@@ -4,6 +4,6 @@
 
   `docker inspect -f '{{ json .Mounts }}' <containerid> | python -m json.tool`
 
-1. Remove the Volume using the Volume-ID from above:
+1. Remove the Volume using the `Name` from above:
 
   `docker volume rm <volumeid>`
