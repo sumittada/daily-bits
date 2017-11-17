@@ -6,3 +6,7 @@
 
 ### To remove all images
 `docker rmi $(docker images -a -q)`
+
+Or, use -f if you have lot of tagged and dependent images
+
+`docker rmi -f $(docker images -a -q)`
