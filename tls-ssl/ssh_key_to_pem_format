@@ -1,0 +1,1 @@
+openssl rsa -in rsa.key -pubout -outform PEM -out rsa.key.pub
