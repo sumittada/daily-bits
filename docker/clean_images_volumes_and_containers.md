@@ -13,3 +13,6 @@
 Or, use -f if you have lot of tagged and dependent images
 
 `docker rmi -f $(docker images -a -q)`
+
+### To remove all volumes
+`docker volume rm  $(docker volume ls -q)`
